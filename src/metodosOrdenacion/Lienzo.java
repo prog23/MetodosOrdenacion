@@ -50,7 +50,7 @@ public class Lienzo extends JPanel {
 	@Override
 	protected void paintComponent(Graphics g) {
 		super.paintComponent(g);
-		g.setColor(Color.RED);
+		g.setColor(Color.MAGENTA);
 		for (int i = 0; i < vector.length; i++) {
 			g.drawLine(i, 599, i, 599 - vector[i]);
 			
